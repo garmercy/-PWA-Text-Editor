@@ -22,22 +22,20 @@ module.exports = () => {
       //to do plugins
       new HtmlWebpackPlugin({
         template: "./index.html",
-        title: "Webpack Plugin",
+        title: "jate",
       }),
       new InjectManifest({
         swSrc: "./src-sw.js",
         swDest: "service-worker.js",
       }),
       new WebpackPwaManifest({
-        name: "Just Another Text Editor",
-        short_name: "JATE",
-        description: "A text editor for online and offline use.",
+        name: "Text Editor",
+        short_name: "jate",
+        description: "It's a text editor that you can use online or offline.",
         background_color: "#7eb4e2",
         theme_color: "#7eb4e2",
         start_url: "/",
         publicPath: "/",
-        fingerprints: false,
-        inject: true,
         icons: [
           {
             src: path.resolve("src/images/logo.png"),

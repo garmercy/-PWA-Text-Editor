@@ -41,3 +41,4 @@ THEN I should have proper build scripts for a webpack application
 
 ```
 ## Mock-Up
+[Untitled_ Jan 9, 2024 9_19 PM.webm](https://github.com/garmercy/-PWA-Text-Editor/assets/138730100/68cf475b-9653-4433-b2dd-dab74508d6e5)
